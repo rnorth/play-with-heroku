@@ -1,6 +1,7 @@
 # Basic Play! Framework on Heroku #
 
 This basic project demonstrates use of Play! framework on Heroku, using Heroku's capability to run Play apps (as well as generic Java apps).
+* This is only experimental, and not formally supported by Heroku at the time of writing! *
 
 This application includes a simple controller and domain model, and uses the Postgres database provided by Heroku to store data.
 
