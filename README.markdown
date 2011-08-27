@@ -21,4 +21,4 @@ That's it!
 
 A Procfile sits in the application root folder to trigger Heroku to launch the application in the correct way. It seems Heroku automatically detects the Play nature of the app and downloads the framework into a '.play' folder - as a result it is not necessary to bundle the whole framework with the app.
 
-Some additional configuration elements in application.conf are set, prefixed %heroku, including one to connect to the Postgres database (with a URL provided via the Procfile).
+Some additional configuration elements are set in application.conf, prefixed %heroku, including one to connect to the Postgres database (with a URL provided via the Procfile).
